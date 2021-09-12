@@ -1,0 +1,3 @@
+/*
+ Aqui ira el codigo de stats.js
+ */
