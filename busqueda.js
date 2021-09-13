@@ -1,4 +1,5 @@
 var nombre;
+
 function BuscarPoke(){
     var nombreElement = document.getElementById("nombre");
     nombre = nombreElement.value;
