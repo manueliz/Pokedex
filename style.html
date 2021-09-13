@@ -1,1 +1,32 @@
-pon algo aqui
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokedex</title>
+        <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+        <script src="style.js" type="text/javascript" defer></script>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <input type="text" id="nombre">
+        <button onclick="BuscarPoke()" id="buscar">
+            Buscar
+        </button>
+        <div class="pokedex">
+            <div id="namePoke"> Pokedex </div>
+
+            <div data-poke-img-container class="img-container">
+                <img id="sprite" class="poke-img" src="./poke-shadow.png"/>
+            </div>
+            <div id="id"></div>
+            <div data-poke-types class="poke-types"></div>
+            <div data-poke-stats class="poke-stats"></div>
+            <button onclick="informacion()" id="informacion">
+                Informacion de los creadores
+            </button>
+            <button onclick="contactos()" id="contactos">
+                Contacto
+            </button>
+        </div>
+    </body>
+</html> 
