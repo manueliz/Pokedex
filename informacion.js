@@ -1,0 +1,3 @@
+/*
+ Aqui ira el codigo js de Informacion
+ */
