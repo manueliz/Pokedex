@@ -1,3 +1,21 @@
-/*
-Aqui ira el codigo html de stats
-*/
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pokedex</title>
+        <link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+        <script src="stats.js" type="text/javascript" defer></script>
+    </head>
+    <body>
+        <input type="text" id="nombre">
+        <button onclick="BuscarPoke()">
+            Buscar
+        </button>
+        <div id="namePoke"> Pokedex </div>
+        <img id="sprite" src="./poke-shadow.png"/>
+        <div id="id"></div>
+        <div data-poke-types class="poke-types"></div>
+        <div data-poke-stats class="poke-stats"></div>
+
+    </body>
+</html> 
